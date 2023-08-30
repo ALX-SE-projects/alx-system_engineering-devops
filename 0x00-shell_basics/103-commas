@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1am --classify
+echo $(ls -am --classify)$(printf "\n")
