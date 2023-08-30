@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(ls -am --classify)$(printf "\n")
+echo $(ls -am --file-type)$(printf "\n")
