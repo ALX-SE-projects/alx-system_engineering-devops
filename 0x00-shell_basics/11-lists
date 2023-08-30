@@ -1,2 +1,2 @@
 #!/bin/bash
-cat ./11-lists.cheat
+ls -la . .. /boot
