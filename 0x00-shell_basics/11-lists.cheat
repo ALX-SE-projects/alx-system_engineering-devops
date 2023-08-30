@@ -1,0 +1,31 @@
+.:
+total 52
+drwxr-xr-x 2 996 992 291 .
+drwxr-xr-x 4 996 992 43 ..
+-rwxr-xr-x 1 996 992 16 0-current_working_directory
+-rwxr-xr-x 1 996 992 17 10-back
+-rwxr-xr-x 1 996 992 30 11-lists
+-rwxr-xr-x 1 996 992 15 1-listit
+-rwxr-xr-x 1 996 992 15 2-bring_me_home
+-rwxr-xr-x 1 996 992 18 3-listfiles
+-rwxr-xr-x 1 996 992 19 4-listmorefiles
+-rwxr-xr-x 1 996 992 20 5-listfilesdigitonly
+-rwxr-xr-x 1 996 992 42 6-firstdirectory
+-rwxr-xr-x 1 996 992 56 7-movethatfile
+-rwxr-xr-x 1 996 992 45 8-firstdelete
+-rwxr-xr-x 1 996 992 42 9-firstdirdeletion
+-rw-r--r-- 1 996 992 4 README.md
+
+..:
+total 0
+drwxr-xr-x 4 996 992 43 .
+drwxr-xr-x 3 996 992 20 ..
+drwxr-xr-x 2 996 992 291 0x00-shell_basics
+drwxr-xr-x 8 996 992 162 .git
+
+/boot:
+total 0
+drwxr-xr-x 2 root root 6 .
+drwxr-xr-x 17 root root 269 ..
+
+(784 chars long)
