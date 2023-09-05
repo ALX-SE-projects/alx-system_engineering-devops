@@ -1,2 +1,2 @@
 #!/bin/bash
-let BEST=School
+BEST=School
