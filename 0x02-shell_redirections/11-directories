@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $($(ls -lRa | wc -l) - 4)
+echo $(($(ls -lRa | wc -l) - 4))
