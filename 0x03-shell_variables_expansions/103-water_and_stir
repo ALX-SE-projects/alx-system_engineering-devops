@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "obase=$bestchol; $(($water#$WATER + $stir#$STIR))" | bc
+echo "${bestchol}o; $(($water#$WATER + $stir#$STIR))" | dc
