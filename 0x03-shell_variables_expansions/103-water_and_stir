@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "${bestchol}o; $(($water#$WATER + $stir#$STIR))" | dc
+echo "${bestchol}o\x$(printf %x 59) $(($water#$WATER + $stir#$STIR))\n" | dc
