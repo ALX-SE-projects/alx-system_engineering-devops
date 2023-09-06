@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "${bestchol}o$(printf "\x$(printf %x 59)") $(($water#$WATER + $stir#$STIR))\n" | dc
+rev | printf "%o\n" $(( $((5#$(echo $WATER | tr water 01234))) + $((5#$(echo $STIR | tr stir. 01234))) )) | tr 01234567 bestchol | rev
