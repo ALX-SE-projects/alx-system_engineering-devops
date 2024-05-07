@@ -5,13 +5,12 @@ from requests import get as GET
 
 def number_of_subscribers(subreddit):
     "subreddit: name of subreddit"
-    r = GET(
+    req = GET(
         f"http://reddit.com/r/{subreddit}/about.json",
         headers={'User-Agent': "alx"},
         # allow_redirects=False
-        ).json()['data']
-    if 'subscribers' in r:
-        return r['subscribers']
+        )
+    if req.status_code == 200:
+        return req.json().get("data").get("subscribers")
     else:
         return 0
-    print('OK', end='')
