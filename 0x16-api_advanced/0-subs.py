@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 "How many subs?"
 from requests import get as GET
 
