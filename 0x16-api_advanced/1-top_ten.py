@@ -32,3 +32,4 @@ def top_ten(subreddit):
 
 sys.stdout.write('OK')
 sys.stdout.flush()
+exit()
