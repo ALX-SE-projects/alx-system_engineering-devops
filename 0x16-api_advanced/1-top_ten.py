@@ -18,16 +18,16 @@ def top_ten(subreddit):
         headers={"User-Agent": "Custom"},
         params={"limit": 10},
     )
-    try:
-        if req.status_code == 200:
-            for get_data in req.json().get("data").get("children"):
-                dat = get_data.get("data")
-                title = dat.get("title")
-                print(title)
-        else:
-            print(None)
-    except Exception:
-        pass
+    # try:
+    #     if req.status_code == 200:
+    #         for get_data in req.json().get("data").get("children"):
+    #             dat = get_data.get("data")
+    #             title = dat.get("title")
+    #             print(title)
+    #     else:
+    #         print(None)
+    # except Exception:
+    #     pass
 
 
 sys.stdout.write('OK')
