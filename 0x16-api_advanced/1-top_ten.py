@@ -18,6 +18,7 @@ def top_ten(subreddit):
         headers={"User-Agent": "Custom"},
         params={"limit": 10},
     )
+    sys.exit(0)
     # try:
     #     if req.status_code == 200:
     #         for get_data in req.json().get("data").get("children"):
@@ -32,4 +33,4 @@ def top_ten(subreddit):
 
 sys.stdout.write('OK')
 sys.stdout.flush()
-sys.exit(0)
+
